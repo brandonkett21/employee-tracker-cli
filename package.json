@@ -1,0 +1,26 @@
+{
+  "name": "employee-tracker-cli",
+  "version": "1.0.0",
+  "description": "A node.js application that tracks employees using a mysql database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonkett21/employee-tracker-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandonkett21/employee-tracker-cli/issues"
+  },
+  "homepage": "https://github.com/brandonkett21/employee-tracker-cli#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "inquirer-confirm": "^2.0.7",
+    "mysql": "^2.18.1"
+  }
+}
